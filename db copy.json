@@ -1,0 +1,114 @@
+{
+    "personajes": 
+    [
+        {
+            "id": 1,
+            "nombre": "Iron Man",
+            "edad": 45,
+            "poderes": ["tecnología avanzada", "ingeniería", "vuelo con traje"],
+            "afiliacion": "Avengers",
+            "vivo": true,
+            "fechaNacimiento": "1979-05-29",
+            "nivelPeligrosidad": "Moderado",
+            "relaciones": ["Pepper Potts", "James Rhodes"]
+        },
+        {
+            "id": 2,
+            "nombre": "Spider-Man",
+            "edad": 20,
+            "poderes": ["sentido arácnido", "agilidad sobrehumana", "fuerza sobrehumana"],
+            "afiliacion": ["Avengers", "Spider-Verse"],
+            "vivo": true,
+            "fechaNacimiento": "2004-08-10",
+            "nivelPeligrosidad": "Bajo",
+            "relaciones": ["Tía May", "Mary Jane Watson"]
+        },
+        {
+            "id": 3,
+            "nombre": "Thor",
+            "edad": 1500,
+            "poderes": ["fuerza sobrehumana", "longevidad", "control del clima"],
+            "afiliacion": "Avengers",
+            "vivo": true,
+            "fechaNacimiento": "0500-01-01",
+            "nivelPeligrosidad": "Alto",
+            "relaciones": ["Loki", "Odín"]
+        },
+        {
+            "id": 4,
+            "nombre": "Black Widow",
+            "edad": 35,
+            "poderes": ["maestría en combate", "espionaje", "arma de fuego"],
+            "afiliacion": ["Avengers", "S.H.I.E.L.D."],
+            "vivo": false,
+            "fechaNacimiento": "1989-06-03",
+            "nivelPeligrosidad": "Alto",
+            "relaciones": ["Hawkeye", "Winter Soldier"]
+        },
+        {
+            "id": 5,
+            "nombre": "Hulk",
+            "edad": 40,
+            "poderes": ["fuerza sobrehumana", "regeneración", "control de emociones"],
+            "afiliacion": "Avengers",
+            "vivo": true,
+            "fechaNacimiento": "1984-12-18",
+            "nivelPeligrosidad": "Extremo",
+            "relaciones": ["Betty Ross", "Rick Jones"]
+        },
+        {
+            "id": 6,
+            "nombre": "Loki",
+            "edad": 1058,
+            "poderes": [
+                "ilusiones",
+                "magia",
+                "teletransportación"
+            ],
+            "afiliacion": "Variante",
+            "vivo": true,
+            "fechaNacimiento": "964 d.C.",
+            "nivelPeligrosidad": "Alto",
+            "relaciones": [
+                "Thor",
+                "Frigga"
+            ]
+        },
+        {
+            "id": 7,
+            "nombre": "Capitana Marvel",
+            "edad": 33,
+            "poderes": [
+                "fuerza sobrehumana",
+                "vuelo a alta velocidad",
+                "disparos de energía"
+            ],
+            "afiliacion": "Vengadores",
+            "vivo": true,
+            "fechaNacimiento": "1991-07-04",
+            "nivelPeligrosidad": "Alto",
+            "relaciones": [
+                "Nick Fury",
+                "War Machine"
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "Bruja Escarlata",
+            "edad": 31,
+            "poderes": [
+                "control de la realidad",
+                "telequinesis",
+                "proyección de energía"
+            ],
+            "afiliacion": "Vengadores",
+            "vivo": true,
+            "fechaNacimiento": "1990-12-12",
+            "nivelPeligrosidad": "Alto",
+            "relaciones": [
+                "Vision",
+                "Quicksilver"
+            ]
+        }
+    ]
+}

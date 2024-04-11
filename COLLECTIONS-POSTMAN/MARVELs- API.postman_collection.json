@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "8ad4ed20-2ae1-4a8a-924d-e680692a1e94",
+		"name": "MARVELs- API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33598209"
+	},
+	"item": [
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/marvel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"marvel"
+					],
+					"query": [
+						{
+							"key": "afiliacion",
+							"value": "Avengers",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/marvel/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"marvel",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"T'Challa/Black Panther\",\r\n  \"edad\": 40,\r\n  \"poderes\": [\r\n    \"agilidad sobrehumana\",\r\n    \"fuerza sobrehumana\",\r\n    \"sentido agudizado\",\r\n    \"tecnología avanzada\"\r\n  ],\r\n  \"afiliacion\": \"Wakanda\",\r\n  \"vivo\": true,\r\n  \"fechaNacimiento\": \"1984-06-06\",\r\n  \"nivelPeligrosidad\": \"Alto\",\r\n  \"relaciones\": [\r\n    \"Shuri\",\r\n    \"Okoye\"\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/marvel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"marvel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Universo\": \"Tierra-616\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/marvel/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"marvel",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "destroy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/marvel/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"marvel",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

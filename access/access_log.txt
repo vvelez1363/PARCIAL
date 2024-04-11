@@ -1,0 +1,4 @@
+10/04/2024 20:42:32 [GET] /marvel {} {} ::1
+10/04/2024 20:57:35 [POST] /marvel {} {"nombre":"T'Challa/Black Panther","edad":40,"poderes":["agilidad sobrehumana","fuerza sobrehumana","sentido agudizado","tecnología avanzada"],"afiliacion":"Wakanda","vivo":true,"fechaNacimiento":"1984-06-06","nivelPeligrosidad":"Alto","relaciones":["Shuri","Okoye"]} ::1
+10/04/2024 20:59:33 [PUT] /marvel {} {"Universo":"Tierra-616"} ::1
+10/04/2024 20:59:56 [PUT] /marvel/1 {} {"Universo":"Tierra-616"} ::1

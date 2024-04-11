@@ -1,0 +1,29 @@
+{
+  "name": "api-marvel",
+  "version": "0.0.1",
+  "description": "API con CRUD que almacena la información en un archivo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect index.js"
+  },
+  "keywords": [
+    "api",
+    "plain-text",
+    "json"
+  ],
+  "author": "Valentina Velez Castrillon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "joi": "^17.12.3",
+    "moment": "^2.30.1",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
